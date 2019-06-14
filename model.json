@@ -1,0 +1,149 @@
+{
+    "question": "DOES THE UNIT HAS POWER ?",
+    "options": [
+        {
+            "title": "YES",
+            "next_question": {
+                "question": "CAN YOU HEAR THE MOTOR RUNNING ? ",
+                "options": [
+                    {
+                        "title": "YES",
+                        "next_question": {
+                            "question": "IS THERE ANY ICE BUILD UP ON THE EVAPORATOR",
+                            "options": [
+                                {
+                                    "title": "YES",
+                                    "next_question": {
+                                        "question": "PLEASE EMPTY THE UNIT AND SWITCH OFF TO DEFROST IF HIGH TEMP PERSISTS ",
+                                        "options": [
+                                            {
+                                                "title": "OKAY",
+                                                "next_question": {
+                                                    "question": "SERVICE TECHNICIAN WILL REQUIRE TO ATTEND TO CHECK",
+                                                    "options": []
+                                                },
+                                                "is_last": true
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "NO",
+                                    "next_question": {
+                                        "question": "HAVE YOU CLEANED THE CONDENSER RECENTLY ",
+                                        "options": [
+                                            {
+                                                "title": "YES",
+                                                "next_question": {
+                                                    "question": "HAS THE DOOR BEEN OPEN ON THE UNIT FOR LONG PERIOD OF TIME",
+                                                    "options": [
+                                                        {
+                                                            "title": "YES",
+                                                            "next_question": {
+                                                                "question": "PLEASE CLOSE THE DOOR AND REVERT BACK AFTER 15 MIN IF THE TEMP  DOES NOT DROP",
+                                                                "options": [
+                                                                    {
+                                                                        "title": "OKAY",
+                                                                        "next_question": {
+                                                                            "question": "SERVICE TECHNICIAN WILL REQUIRE TO ATTEND TO CHECK",
+                                                                            "options": []
+                                                                        },
+                                                                        "is_last": true
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "is_last": false
+                                                        },
+                                                        {
+                                                            "title": "NO",
+                                                            "next_question": {
+                                                                "question": "PLEASE CLOSE THE DOOR AND REVERT BACK AFTER 15 MIN IF THE TEMP  DOES NOT DROP",
+                                                                "options": [
+                                                                    {
+                                                                        "title": "OKAY",
+                                                                        "next_question": {
+                                                                            "question": "SERVICE TECHNICIAN WILL REQUIRE TO ATTEND TO CHECK",
+                                                                            "options": []
+                                                                        },
+                                                                        "is_last": true
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "is_last": false
+                                                        }
+                                                    ]
+                                                },
+                                                "is_last": false
+                                            },
+                                            {
+                                                "title": "NO",
+                                                "next_question": {
+                                                    "question": "PLEASE CLEAN THE CONDENSER AND REVERT AFETR 20 MIN IF NO CHANGE IN TEMP, IF REQUIRED WE CAN GUIDE THROUGH THIS PROCESS",
+                                                    "options": []
+                                                },
+                                                "is_last": true
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "NO",
+                        "next_question": {
+                            "question": "SERVICE TECHNICIAN WILL REQUIRE TO ATTEND TO CHECK",
+                            "options": [],
+                            "is_last": true
+                        },
+                        "is_last": false
+                    }
+                ]
+            }
+        },
+        {
+            "title": "NO",
+            "next_question": {
+                "question": "HAVE YOU CHECKED THE FUSE",
+                "options": [
+                    {
+                        "title": "YES",
+                        "next_question": {
+                            "question": "HAVE YOU CHECKED THE MAIN POWER SUPPLY",
+                            "options": [
+                                {
+                                    "title": "YES",
+                                    "next_question": {
+                                        "question": "SERVICE TECHNICIAN WILL REQUIRE TO ATTEND TO CHECK",
+                                        "options": [],
+                                        "is_last": true
+                                    },
+                                    "is_last": false
+                                },
+                                {
+                                    "title": "NO",
+                                    "next_question": {
+                                        "question": "PLEASE VERIFY THE MAIN POWER SUPPLY AND COME BACK IF PROBLEM PERSISTS",
+                                        "options": [],
+                                        "is_last": true
+                                    },
+                                    "is_last": false
+                                }
+                            ]
+                        },
+                        "is_last": false
+                    },
+                    {
+                        "title": "NO",
+                        "next_question": {
+                            "question": "PLEASE VERIFY THE FUSE AND COME BACK IF PROBLEM PERSISTS",
+                            "options": [],
+                            "is_last": true
+                        },
+                        "is_last": false
+                    }
+                ]
+            }
+        }
+    ]
+}
