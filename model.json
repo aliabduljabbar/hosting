@@ -1,25 +1,25 @@
 {
-    "question": "DOES THE UNIT HAS POWER ?",
+    "question": "Does the unit has power ?",
     "options": [
         {
             "title": "YES",
             "next_question": {
-                "question": "CAN YOU HEAR THE MOTOR RUNNING ? ",
+                "question": "Can you hear the motor running ? ",
                 "options": [
                     {
                         "title": "YES",
                         "next_question": {
-                            "question": "IS THERE ANY ICE BUILD UP ON THE EVAPORATOR",
+                            "question": "Is there any ice build up on the evaporator",
                             "options": [
                                 {
                                     "title": "YES",
                                     "next_question": {
-                                        "question": "PLEASE EMPTY THE UNIT AND SWITCH OFF TO DEFROST IF HIGH TEMP PERSISTS ",
+                                        "question": "Please empty the unit and switch off to defrost if high temp persists ",
                                         "options": [
                                             {
                                                 "title": "OKAY",
                                                 "next_question": {
-                                                    "question": "SERVICE TECHNICIAN WILL REQUIRE TO ATTEND TO CHECK",
+                                                    "question": "Service technician will require to attend to check",
                                                     "options": []
                                                 },
                                                 "is_last": true
@@ -30,22 +30,22 @@
                                 {
                                     "title": "NO",
                                     "next_question": {
-                                        "question": "HAVE YOU CLEANED THE CONDENSER RECENTLY ",
+                                        "question": "Have you cleaned the condenser recently ",
                                         "options": [
                                             {
                                                 "title": "YES",
                                                 "next_question": {
-                                                    "question": "HAS THE DOOR BEEN OPEN ON THE UNIT FOR LONG PERIOD OF TIME",
+                                                    "question": "Has the door been open on the unit for long period of time",
                                                     "options": [
                                                         {
                                                             "title": "YES",
                                                             "next_question": {
-                                                                "question": "PLEASE CLOSE THE DOOR AND REVERT BACK AFTER 15 MIN IF THE TEMP  DOES NOT DROP",
+                                                                "question": "Please close the door and revert back after 15 min if the temp  does not drop",
                                                                 "options": [
                                                                     {
                                                                         "title": "OKAY",
                                                                         "next_question": {
-                                                                            "question": "SERVICE TECHNICIAN WILL REQUIRE TO ATTEND TO CHECK",
+                                                                            "question": "Service technician will require to attend to check",
                                                                             "options": []
                                                                         },
                                                                         "is_last": true
@@ -57,12 +57,12 @@
                                                         {
                                                             "title": "NO",
                                                             "next_question": {
-                                                                "question": "PLEASE CLOSE THE DOOR AND REVERT BACK AFTER 15 MIN IF THE TEMP  DOES NOT DROP",
+                                                                "question": "Please close the door and revert back after 15 min if the temp  does not drop",
                                                                 "options": [
                                                                     {
                                                                         "title": "OKAY",
                                                                         "next_question": {
-                                                                            "question": "SERVICE TECHNICIAN WILL REQUIRE TO ATTEND TO CHECK",
+                                                                            "question": "Service technician will require to attend to check",
                                                                             "options": []
                                                                         },
                                                                         "is_last": true
@@ -78,7 +78,7 @@
                                             {
                                                 "title": "NO",
                                                 "next_question": {
-                                                    "question": "PLEASE CLEAN THE CONDENSER AND REVERT AFETR 20 MIN IF NO CHANGE IN TEMP, IF REQUIRED WE CAN GUIDE THROUGH THIS PROCESS",
+                                                    "question": "Please clean the condenser and revert afetr 20 min if no change in temp, if required we can guide through this process",
                                                     "options": []
                                                 },
                                                 "is_last": true
@@ -92,7 +92,7 @@
                     {
                         "title": "NO",
                         "next_question": {
-                            "question": "SERVICE TECHNICIAN WILL REQUIRE TO ATTEND TO CHECK",
+                            "question": "Service technician will require to attend to check",
                             "options": [],
                             "is_last": true
                         },
@@ -104,17 +104,17 @@
         {
             "title": "NO",
             "next_question": {
-                "question": "HAVE YOU CHECKED THE FUSE",
+                "question": "Have you checked the fuse",
                 "options": [
                     {
                         "title": "YES",
                         "next_question": {
-                            "question": "HAVE YOU CHECKED THE MAIN POWER SUPPLY",
+                            "question": "Have you checked the main power supply",
                             "options": [
                                 {
                                     "title": "YES",
                                     "next_question": {
-                                        "question": "SERVICE TECHNICIAN WILL REQUIRE TO ATTEND TO CHECK",
+                                        "question": "Service technician will require to attend to check",
                                         "options": [],
                                         "is_last": true
                                     },
@@ -123,7 +123,7 @@
                                 {
                                     "title": "NO",
                                     "next_question": {
-                                        "question": "PLEASE VERIFY THE MAIN POWER SUPPLY AND COME BACK IF PROBLEM PERSISTS",
+                                        "question": "Please verify the main power supply and come back if problem persists",
                                         "options": [],
                                         "is_last": true
                                     },
@@ -136,7 +136,7 @@
                     {
                         "title": "NO",
                         "next_question": {
-                            "question": "PLEASE VERIFY THE FUSE AND COME BACK IF PROBLEM PERSISTS",
+                            "question": "Please verify the fuse and come back if problem persists",
                             "options": [],
                             "is_last": true
                         },
